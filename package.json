@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "ship": "git add . && git commit -m \"update\" || echo no changes && git push"
+    "ship": "git add . && git commit -m \"update\" && git push || git push"
   },
   "dependencies": {
     "react": "19.1.0",

@@ -18,14 +18,15 @@ export default function RootLayout({ children }) {
             {/* Logo + Brand */}
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/eidr.png"        // Make sure your logo is in /public/eidr.png
+                src="/eidr.png"
                 alt="Eidrspacee logo"
                 width={32}
                 height={32}
                 priority
                 className="h-8 w-8 object-contain"
               />
-              <span className="font-semibold tracking-wide">Eidrspacee</span>
+              {/* ✨ Added sparkle here for test */}
+              <span className="font-semibold tracking-wide">Eidrspacee ✨</span>
             </Link>
 
             {/* Navigation Links */}

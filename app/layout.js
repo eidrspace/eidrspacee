@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
                 className="h-8 w-8 object-contain"
               />
               {/* ✨ Added sparkle here for test */}
-              <span className="font-semibold tracking-wide">Eidrspacee ✨</span>
+              <span className="font-semibold tracking-wide">Eidrspacee </span>
             </Link>
 
             {/* Navigation Links */}
